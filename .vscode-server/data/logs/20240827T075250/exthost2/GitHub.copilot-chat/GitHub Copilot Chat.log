@@ -59,3 +59,9 @@
 2024-08-27 14:08:11.128 [info] [auth] Logged in as Jabkh
 2024-08-27 14:08:12.022 [info] [auth] Got Copilot token for Jabkh
 2024-08-27 14:08:12.023 [info] [chat] copilot token chat_enabled: true
+2024-08-27 14:24:50.343 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 861 ms
+2024-08-27 14:24:51.717 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-27 14:24:51.718 [info] [streamChoices] request done: requestId: [10cde463-22d8-45b4-9f8b-8391e649baea] model deployment ID: []
+2024-08-27 14:24:52.234 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 496 ms
+2024-08-27 14:24:52.239 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-27 14:24:52.240 [info] [streamChoices] request done: requestId: [b51b393c-1205-4fc2-afd4-5810848e1492] model deployment ID: []

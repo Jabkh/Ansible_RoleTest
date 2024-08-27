@@ -93,14 +93,14 @@
       owner: root
       group: root
       mode: 0644
-    notify: restart nginx
+
 
   - name: création du lien symbolique du vhost.conf
     file:
       src: /etc/nginx/sites-available/vhost.conf
       dest: /etc/nginx/sites-enabled/vhost.conf
       state: link
-    notify: restart nginx
+
 
 - name: Installation locale de la clef SSH
   hosts: localhost
@@ -117,7 +117,7 @@
     - nginx
 
   handlers:
-    - name: restart nginx
+    - name: Redémarrer Nginx
       service:
         name: nginx
         state: restarted
