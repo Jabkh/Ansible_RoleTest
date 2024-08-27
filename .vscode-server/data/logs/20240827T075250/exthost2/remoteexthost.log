@@ -1,0 +1,79 @@
+2024-08-27 07:52:57.701 [info] Extension host with pid 2562 started
+2024-08-27 07:52:57.713 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/ab8ee4611af79402329b0c1e634bff1a/vscode.lock': Lock acquired.
+2024-08-27 07:52:57.746 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-08-27 07:52:57.775 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-08-27 07:52:57.775 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-08-27 07:52:57.971 [info] Eager extensions activated
+2024-08-27 07:52:57.972 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-08-27 07:52:57.972 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-08-27 07:52:57.973 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2024-08-27 07:52:57.973 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2024-08-27 07:54:43.836 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-08-27 09:59:31.723 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2024-08-27 09:59:31.725 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2024-08-27 10:05:32.078 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2024-08-27 13:00:49.841 [error] Error: No such branch: master.
+    at N.getBranch (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1032124)
+    at T.run (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:941421)
+2024-08-27 13:00:49.845 [error] Error: No such branch: master.
+    at N.getBranch (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1032124)
+    at T.run (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:941421)
+2024-08-27 13:14:23.812 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-08-27 13:14:23.814 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-08-27 13:14:23.814 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-08-27 13:18:39.183 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-08-27 13:20:40.073 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1576
+2024-08-27 13:20:40.265 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1576
+2024-08-27 13:20:41.089 [error] Error: No such branch: master.
+    at N.getBranch (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1032124)
+    at T.run (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:941421)
+2024-08-27 13:20:41.282 [error] Error: No such branch: master.
+    at N.getBranch (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1032124)
+    at T.run (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:941421)
+2024-08-27 13:20:43.618 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1576
+2024-08-27 13:20:44.621 [error] Error: No such branch: master.
+    at N.getBranch (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1032124)
+    at T.run (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:941421)
+2024-08-27 13:20:48.654 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1576
+2024-08-27 13:20:49.661 [error] Error: No such branch: master.
+    at N.getBranch (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1032124)
+    at T.run (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:941421)
+2024-08-27 13:20:53.691 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1576
+2024-08-27 13:20:54.699 [error] Error: No such branch: master.
+    at N.getBranch (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1032124)
+    at T.run (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:941421)

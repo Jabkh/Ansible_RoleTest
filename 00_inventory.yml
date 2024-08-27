@@ -1,0 +1,18 @@
+all:
+  children:
+    common:
+      children:
+        webserver:
+          hosts:
+            node1:
+            node2:
+        dbserver:
+          hosts:
+            node3:
+        app:
+          hosts:
+            node4:
+            node5:
+    monitoring:
+      children:
+        common:

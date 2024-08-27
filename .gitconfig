@@ -1,0 +1,5 @@
+[user]
+	name = JaberKh
+	email = j.khaloua@hotmail.com
+[credential]
+	helper = "!f() { /root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/node /tmp/vscode-remote-containers-f8b84c01-a129-48f8-bf6f-3a6c3366216e.js git-credential-helper $*; }; f"

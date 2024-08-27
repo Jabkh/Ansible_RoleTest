@@ -1,0 +1,65 @@
+---
+- name: Configuration des serveurs web
+  hosts: webserver  # Adapté pour correspondre à l'inventaire
+  become: yes
+  tasks:
+    - name: Créer le groupe admin s'il n'existe pas
+      group:
+        name: admin
+        state: present  
+    
+    - name: Créer le groupe user s'il n'existe pas
+      group:
+        name: user
+        state: present       
+    
+    - name: Créer l'utilisateur apacheadm et l'ajouter aux groupes users et admin
+      user:
+        name: apacheadm
+        groups: users,admin
+        home: /home/apacheadm
+        create_home: yes
+        state: present
+
+    - name: Installer le paquet apache2
+      apt:
+        name: apache2
+        state: present
+        update_cache: yes
+
+- name: Configuration des serveurs de base de données
+  hosts: dbserver  # Adapté pour correspondre à l'inventaire
+  become: yes
+  tasks:
+    - name: Créer l'utilisateur utilisateur et l'ajouter au groupe users
+      user:
+        name: utilisateur
+        groups: users
+        home: /home/utilisateur
+        create_home: yes
+        state: present
+
+    - name: Créer le répertoire /opt/oracle avec les permissions 0755
+      file:
+        path: /opt/oracle
+        state: directory
+        mode: '0755'
+
+- name: jinja3
+  hosts: all
+  vars:
+    items:
+      - { key1: valeur1, key2: valeur2, key3:
+valeur3 }
+      - { key1: valeur4, key2: valeur5, key3:
+valeur6 }
+      - { key1: valeur7, key2: valeur8, key3:
+valeur9 }
+  tasks:
+  - name: copy
+    copy:
+      content: |
+        {% for item in items %}
+        {{ item.key2 }} >> {{ item.key1 }}
+        {% endfor %}
+      dest: /tmp/test_jinja.txt 

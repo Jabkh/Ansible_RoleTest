@@ -1,0 +1,38 @@
+2024-08-27 07:52:50.938 [info] 
+
+
+
+
+2024-08-27 07:52:50.945 [info] Installing extensions...
+2024-08-27 07:52:50.947 [info] Extension host agent started.
+2024-08-27 07:52:50.981 [debug] Error while reading the extension cache file: /root/.vscode-server/data/CachedProfilesData/__default__profile__/extensions.builtin.cache Unable to read file '/root/.vscode-server/data/CachedProfilesData/__default__profile__/extensions.builtin.cache' (Error: Unable to resolve nonexistent file '/root/.vscode-server/data/CachedProfilesData/__default__profile__/extensions.builtin.cache')
+2024-08-27 07:52:50.982 [info] Started initializing default profile extensions in extensions installation folder. file:///root/.vscode-server/extensions
+2024-08-27 07:52:51.029 [debug] ComputeTargetPlatform: linux-x64
+2024-08-27 07:52:51.064 [info] [127.0.0.1][9a0917a0][ManagementConnection] New connection established.
+2024-08-27 07:52:51.066 [info] Completed initializing default profile extensions in extensions installation folder. file:///root/.vscode-server/extensions
+2024-08-27 07:52:51.083 [info] Log level changed to info
+2024-08-27 07:52:51.262 [info] [127.0.0.1][6f4d1b28][ExtensionHostConnection] New connection established.
+2024-08-27 07:52:51.269 [info] [127.0.0.1][6f4d1b28][ExtensionHostConnection] <1995> Launched Extension Host Process.
+2024-08-27 07:52:52.064 [info] Installing extension 'github.copilot-chat'...
+2024-08-27 07:52:52.070 [info] Installing extension 'github.copilot'...
+2024-08-27 07:52:52.072 [info] Getting Manifest... github.copilot
+2024-08-27 07:52:52.268 [info] Getting Manifest... github.copilot-chat
+2024-08-27 07:52:52.283 [info] Installing extension: github.copilot {"isMachineScoped":false,"installPreReleaseVersion":false,"isApplicationScoped":true,"isBuiltin":false,"installGivenVersion":false,"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.92.1","date":"2024-08-07T20:16:39.455Z"}}
+2024-08-27 07:52:52.284 [info] Installing extension: github.copilot-chat {"isMachineScoped":false,"installPreReleaseVersion":false,"isApplicationScoped":true,"isBuiltin":false,"installGivenVersion":false,"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.92.1","date":"2024-08-07T20:16:39.455Z"}}
+2024-08-27 07:52:52.708 [info] Getting Manifest... github.copilot
+2024-08-27 07:52:52.913 [info] Getting Manifest... github.copilot-chat
+2024-08-27 07:52:54.182 [info] [127.0.0.1][9a0917a0][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-08-27 07:52:54.309 [info] [127.0.0.1][6f4d1b28][ExtensionHostConnection] <1995> Extension Host Process exited with code: 0, signal: null.
+2024-08-27 07:52:54.495 [info] Extension signature verification result for github.copilot-chat: Success. Executed: true. Duration: 1166ms.
+2024-08-27 07:52:54.496 [info] Extension signature verification result for github.copilot: Success. Executed: true. Duration: 1108ms.
+2024-08-27 07:52:54.809 [info] Extracted extension to file:///root/.vscode-server/extensions/github.copilot-chat-0.18.2: github.copilot-chat
+2024-08-27 07:52:54.832 [info] Renamed to /root/.vscode-server/extensions/github.copilot-chat-0.18.2
+2024-08-27 07:52:54.905 [info] Extracted extension to file:///root/.vscode-server/extensions/github.copilot-1.223.0: github.copilot
+2024-08-27 07:52:54.914 [info] Renamed to /root/.vscode-server/extensions/github.copilot-1.223.0
+2024-08-27 07:52:54.930 [info] Extension installed successfully: github.copilot-chat file:///root/.vscode-server/extensions/extensions.json
+2024-08-27 07:52:54.930 [info] Extension installed successfully: github.copilot file:///root/.vscode-server/extensions/extensions.json
+2024-08-27 07:52:54.931 [info] Extension 'github.copilot-chat' v0.18.2 was successfully installed.
+2024-08-27 07:52:54.931 [info] Extension 'github.copilot' v1.223.0 was successfully installed.
+2024-08-27 07:52:57.019 [info] [127.0.0.1][cc035316][ManagementConnection] New connection established.
+2024-08-27 07:52:57.260 [info] [127.0.0.1][a4828565][ExtensionHostConnection] New connection established.
+2024-08-27 07:52:57.292 [info] [127.0.0.1][a4828565][ExtensionHostConnection] <2562> Launched Extension Host Process.

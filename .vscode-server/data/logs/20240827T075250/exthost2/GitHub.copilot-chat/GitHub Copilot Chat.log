@@ -1,0 +1,55 @@
+2024-08-27 07:52:58.651 [info] [FetcherService] Using the Helix fetcher.
+2024-08-27 07:52:58.651 [info] [gitExtensionService] Initializing Git extension service.
+2024-08-27 07:52:58.651 [info] [gitExtensionService] Successfully activated the vscode.git extension.
+2024-08-27 07:52:58.651 [info] [gitExtensionService] Enablement state of the vscode.git extension: true.
+2024-08-27 07:52:58.651 [info] [gitExtensionService] Successfully registered Git commit message provider.
+2024-08-27 07:52:58.782 [info] [RemoteAgents] Unable to fetch remote agents because user is not signed in.
+2024-08-27 07:52:58.835 [info] [auth] Logged in as Jabkh
+2024-08-27 07:52:58.858 [info] [extension] RootCertificateReader removed 3 expired certificates
+2024-08-27 07:52:59.854 [info] [auth] Got Copilot token for Jabkh
+2024-08-27 07:52:59.866 [info] [chat] copilot token chat_enabled: true
+2024-08-27 07:52:59.866 [info] [githubTitleAndDescriptionProvider] GitHub.vscode-pull-request-github extension is not yet activated.
+2024-08-27 07:53:00.804 [info] [contributions] activationBlocker from 'languageModelAccess' took for 2023ms
+2024-08-27 08:17:59.938 [info] [auth] Logged in as Jabkh
+2024-08-27 08:18:00.771 [info] [auth] Got Copilot token for Jabkh
+2024-08-27 08:18:00.774 [info] [chat] copilot token chat_enabled: true
+2024-08-27 08:43:00.815 [info] [auth] Logged in as Jabkh
+2024-08-27 08:43:01.555 [info] [auth] Got Copilot token for Jabkh
+2024-08-27 08:43:01.557 [info] [chat] copilot token chat_enabled: true
+2024-08-27 09:08:01.550 [info] [auth] Logged in as Jabkh
+2024-08-27 09:08:02.347 [info] [auth] Got Copilot token for Jabkh
+2024-08-27 09:08:02.348 [info] [chat] copilot token chat_enabled: true
+2024-08-27 09:33:02.355 [info] [auth] Logged in as Jabkh
+2024-08-27 09:33:03.059 [info] [auth] Got Copilot token for Jabkh
+2024-08-27 09:33:03.063 [info] [chat] copilot token chat_enabled: true
+2024-08-27 09:58:03.169 [info] [auth] Logged in as Jabkh
+2024-08-27 09:58:03.881 [info] [auth] Got Copilot token for Jabkh
+2024-08-27 09:58:03.882 [info] [chat] copilot token chat_enabled: true
+2024-08-27 10:23:03.907 [info] [auth] Logged in as Jabkh
+2024-08-27 10:23:04.629 [info] [auth] Got Copilot token for Jabkh
+2024-08-27 10:23:04.631 [info] [chat] copilot token chat_enabled: true
+2024-08-27 10:48:04.695 [info] [auth] Logged in as Jabkh
+2024-08-27 10:48:05.428 [info] [auth] Got Copilot token for Jabkh
+2024-08-27 10:48:05.429 [info] [chat] copilot token chat_enabled: true
+2024-08-27 11:13:05.518 [info] [auth] Logged in as Jabkh
+2024-08-27 11:13:06.198 [info] [auth] Got Copilot token for Jabkh
+2024-08-27 11:13:06.200 [info] [chat] copilot token chat_enabled: true
+2024-08-27 11:38:06.306 [info] [auth] Logged in as Jabkh
+2024-08-27 11:38:07.127 [info] [auth] Got Copilot token for Jabkh
+2024-08-27 11:38:07.128 [info] [chat] copilot token chat_enabled: true
+2024-08-27 12:03:07.143 [info] [auth] Logged in as Jabkh
+2024-08-27 12:03:07.886 [info] [auth] Got Copilot token for Jabkh
+2024-08-27 12:03:07.888 [info] [chat] copilot token chat_enabled: true
+2024-08-27 12:28:08.004 [info] [auth] Logged in as Jabkh
+2024-08-27 12:28:08.701 [info] [auth] Got Copilot token for Jabkh
+2024-08-27 12:28:08.702 [info] [chat] copilot token chat_enabled: true
+2024-08-27 12:53:08.746 [info] [auth] Logged in as Jabkh
+2024-08-27 12:53:09.471 [info] [auth] Got Copilot token for Jabkh
+2024-08-27 12:53:09.472 [info] [chat] copilot token chat_enabled: true
+2024-08-27 13:14:40.768 [info] [auth] Logged in as Jabkh
+2024-08-27 13:14:41.530 [info] [auth] Got Copilot token for Jabkh
+2024-08-27 13:14:41.597 [info] [chat] copilot token chat_enabled: true
+2024-08-27 13:14:41.598 [info] [chat] copilot token chat_enabled: true
+2024-08-27 13:18:09.603 [info] [auth] Logged in as Jabkh
+2024-08-27 13:18:10.378 [info] [auth] Got Copilot token for Jabkh
+2024-08-27 13:18:10.379 [info] [chat] copilot token chat_enabled: true
