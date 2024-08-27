@@ -31,7 +31,7 @@
 - name: Démarrer Nginx
   service:
     name: nginx
-    state: started
+    state: restarted
 
 - name: Appliquer immédiatement les handlers
   meta: flush_handlers
