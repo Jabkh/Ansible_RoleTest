@@ -27,11 +27,3 @@
     src: /etc/nginx/sites-available/default_vhost.conf
     dest: /etc/nginx/sites-enabled/default_vhost.conf
     state: link
-
-- name: Démarrer Nginx
-  service:
-    name: nginx
-    state: restarted
-
-- name: Appliquer immédiatement les handlers
-  meta: flush_handlers
