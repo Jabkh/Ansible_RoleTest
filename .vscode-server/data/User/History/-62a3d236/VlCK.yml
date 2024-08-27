@@ -15,17 +15,14 @@
 
 - name: Déployer la configuration vhost Nginx depuis le template
   template:
-    src: default_vhost.conf.j2
-    dest: /etc/nginx/sites-available/default_vhost.conf
-    owner: root
-    group: root
-    mode: 0644
+    src: default_vhost.j2
+    dest: /etc/nginx/sites-available/default_vhost
   notify: Redémarrer Nginx
 
 - name: Créer un lien symbolique pour la configuration Nginx
   file:
-    src: /etc/nginx/sites-available/default_vhost.conf
-    dest: /etc/nginx/sites-enabled/default_vhost.conf
+    src: /etc/nginx/sites-available/default_vhost
+    dest: /etc/nginx/sites-enabled/default_vhost
     state: link
 
 - name: Démarrer Nginx

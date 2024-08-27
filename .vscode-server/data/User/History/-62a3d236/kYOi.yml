@@ -1,0 +1,9 @@
+Création du 3e rôle avec la création du serveur nginx avec l’utilisation d’un template
+Maintenant on va s’intéresser aux tasks, on ouvre le main.yml des tasks
+On installe nginx avec le module apt
+On supprime la config par défaut de nginx avec with_items
+On installe notre template vhost qui va directement chercher le fichier dans le template du rôle et va
+créer le fichier default_vhost en local
+Puis création d’un lien symbolique (state: link) pour utiliser la conf que nous avons envoyée
+On démarre ensuite le nginx surtout avant de l’appeler avec le flush_handlers qui est censé faire un
+reload. Il plantera s’il fait un reload sur un nginx non démarré

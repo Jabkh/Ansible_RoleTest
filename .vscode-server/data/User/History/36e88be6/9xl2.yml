@@ -107,7 +107,17 @@
   connection: local
   roles:
     - ssh_keygen
-    
+
+- name: Ajouter la clé publique SSH sur les nœuds
+  hosts: all
+  become: true
+  tasks:
+    - name: Ajouter la clé publique SSH pour l'utilisateur remote_user
+      authorized_key:
+        user: remote_user
+        state: present
+        key: "{{ lookup('file', '/tmp/key_hosts.pub') }}"
+
 
 - name: Installation des serveurs (users, nginx)
   hosts: all

@@ -10,10 +10,6 @@
   copy:
     dest: "/etc/sudoers.d/devops"
     content: "devops ALL=(ALL) NOPASSWD: ALL"
-    owner: root
-    group: root
-    mode: 0440
-    
 - name: Deploy SSH Key
   authorized_key:
     user: devops

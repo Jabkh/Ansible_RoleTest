@@ -107,7 +107,6 @@
   connection: local
   roles:
     - ssh_keygen
-    
 
 - name: Installation des serveurs (users, nginx)
   hosts: all

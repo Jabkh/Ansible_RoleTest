@@ -77,3 +77,40 @@
     at T.getBranchBase (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1020363)
     at t.GitHistoryProvider.resolveHEADMergeBase (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:948043)
     at t.GitHistoryProvider.onDidRunGitStatus (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:941421)
+2024-08-27 13:20:56.145 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1577
+2024-08-27 13:20:57.150 [error] Error: No such branch: master.
+    at N.getBranch (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1032124)
+    at T.run (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:941421)
+2024-08-27 13:21:00.627 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1577
+2024-08-27 13:21:01.629 [error] Error: No such branch: master.
+    at N.getBranch (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1032124)
+    at T.run (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:941421)
+2024-08-27 13:21:05.671 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1577
+2024-08-27 13:21:06.677 [error] Error: No such branch: master.
+    at N.getBranch (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1032124)
+    at T.run (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:941421)
+2024-08-27 13:21:10.713 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1577
+2024-08-27 13:21:11.716 [error] Error: No such branch: master.
+    at N.getBranch (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1032124)
+    at T.run (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/root/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/main.js:2:941421)
+2024-08-27 13:21:12.105 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1577
